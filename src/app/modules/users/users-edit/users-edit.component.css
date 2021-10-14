@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'padrao';
+    src: url("../../../../assets/fonts/Inconsolata_Expanded-Light.ttf")format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.form-group {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container {
+    width: 100%;
+}
+
+.col-md-6 {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    font-weight: 600;
+    color: #00120B;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+fieldset input,
+select {
+    border: 1px solid #8ac04e;
+    border-radius: 3px;
+    font-weight: 600;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    transition: all .1s ease-in;
+}
+
+fieldset input:hover,
+select:hover {
+    background-color: #d8e4ff;
+}
+
+fieldset label {
+    letter-spacing: 2px;
+}
+
+fieldset option {
+    background-color: #35605a;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.save {
+    background-color: #31e981;
+    color: white;
+    font-weight: 600;
+    border: none !important;
+    margin-top: 15px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    transition: all .1s ease-in;
+}
+
+.save:hover {
+    opacity: .8;
+    background-color: #31e981 !important;
+}
+
+.cancel {
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    height: 40px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 3px;
+    border: none !important;
+    margin-top: 15px;
+    text-align: center;
+    transition: all .1s ease-in;
+}
+
+.cancel:hover {
+    opacity: .8;
+    background-color: red !important;
+}
+
+h1 {
+    font-size: 2em;
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #35605a;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 15px;
+}
+
+@media (max-width: 575.98px) {
+    fieldset {
+        width: 90vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    fieldset {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    fieldset {
+        width: 100%;
+    }
+}

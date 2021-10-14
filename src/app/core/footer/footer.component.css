@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'padrao';
+    src: url("../../../assets/fonts/Inconsolata_Expanded-Light.ttf")format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8ac04e;
+    font-weight: 600;
+    letter-spacing: 2px;
+    bottom: 0;
+    position: fixed;
+    z-index: 3;
+    padding: 3px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: white !important;
+}

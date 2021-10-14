@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    padding: 0;
+    font-family: 'padrao';
+    height: 100%;
+    background-color: #d8e4ff;
+}
+
+
+/* fonts Responsive */
+
+html {
+    font-size: 1rem;
+}
+
+
+/* fonts Responsive */
+
+
+/*SnackBar*/
+
+.success-snackbar {
+    background-color: #8ac04e !important;
+}
+
+.error-snackbar {
+    background-color: #FF0000 !important;
+}
+
+.warning-snackbar {
+    background-color: #FFD700 !important;
+}
+
+.mat-simple-snackbar {
+    color: white;
+}
+
+.mat-button-wrapper {
+    color: white;
+}
+
+
+/*SnackBar*/

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'padrao';
+    src: url("../../../assets/fonts/Inconsolata_Expanded-Light.ttf")format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.fundoForm {
+    color: #00120B;
+    align-items: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 20px 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+.fundoForm input {
+    width: 100%;
+    border: 1px solid #8ac04e;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+    height: 40px;
+}
+
+.soon {
+    width: 200px;
+    margin-bottom: 20px;
+    -webkit-transition: all .3s ease-in;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.2);
+}
+
+.fundoForm .login {
+    border: none;
+    background-color: #8ac04e;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    padding: 8px;
+    border-radius: 5px;
+    opacity: all .2s ease-in;
+    width: 100%;
+}
+
+.field {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fundoForm .login:hover {
+    opacity: 0.9;
+}

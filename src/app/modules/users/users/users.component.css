@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'padrao';
+    src: url("../../../../assets/fonts/Inconsolata_Expanded-Light.ttf")format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.desktop {
+    display: block;
+}
+
+.register {
+    background-color: #31e981;
+    color: white;
+    font-weight: 600;
+    padding: 5px 5px 5px 10px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 20px;
+    text-align: center;
+    transition: all ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.register:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.1);
+}
+
+.pesquisar {
+    margin-left: 20px;
+    background-color: #35605a;
+    color: white;
+    font-weight: 600;
+    height: 40px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    transition: all ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.pesquisar:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.1);
+}
+
+.pesquisa {
+    font-weight: 600;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    width: 40vw;
+    border: 1px solid #8ac04e;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+table th {
+    background-color: #6b818c;
+    border: 3px solid #6b818c;
+    color: white;
+    font-size: 1.1em;
+    font-family: 'padrao' !important;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+}
+
+table td {
+    border: #d8e4ff 3px solid;
+    text-align: center;
+    font-family: 'padrao' !important;
+    font-weight: 600;
+    padding: 10px;
+}
+
+table tr:hover {
+    background-color: #d8e4ff;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 575.98px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        width: 100vw;
+    }
+    .search {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
+    .register {
+        margin: 0 0 10px 0;
+        width: 90vw;
+        padding: 5px 5px 5px 15px;
+    }
+    .pesquisar {
+        margin: 10px 0 0 0;
+        width: 90vw;
+        padding: 5px 5px 5px 15px;
+    }
+    .pesquisa {
+        width: 90vw;
+    }
+    table,
+    th,
+    td,
+    tr {
+        font-size: 1em;
+        padding: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        width: 100vw;
+    }
+    .search {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
+    .register {
+        margin: 0 0 10px 0;
+        width: 90vw;
+        padding: 5px 5px 5px 15px;
+    }
+    .pesquisar {
+        margin: 10px 0 0 0;
+        width: 90vw;
+        padding: 5px 5px 5px 15px;
+    }
+    .pesquisa {
+        width: 90vw;
+    }
+    table,
+    th,
+    td,
+    tr {
+        font-size: 1em;
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .desktop {
+        display: block;
+        width: 100vw;
+    }
+    .mobile {
+        display: none;
+        width: 100vw;
+    }
+    .search {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
+    .register {
+        margin: 0 0 10px 0;
+        width: 90vw;
+        padding: 5px 5px 5px 15px;
+    }
+    .pesquisar {
+        margin: 10px 0 0 0;
+        width: 90vw;
+        padding: 5px 5px 5px 15px;
+    }
+    .pesquisa {
+        width: 90vw;
+    }
+    table,
+    th,
+    td,
+    tr {
+        font-size: 1em;
+        padding: 0;
+    }
+}
